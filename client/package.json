@@ -21,9 +21,8 @@
     "redux-thunk": "^2.4.1",
     "web-vitals": "^2.1.4"
   },
-  
   "devDependencies": {
-    "nth-check": ">=2.0.1"
+    "nth-check": "^2.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
