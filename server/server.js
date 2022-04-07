@@ -4,7 +4,6 @@ import  products from "./data/Products.js";
 const app = express()
 
 //Load Product From Server.
-
 app.get("/api/products", (req, res) => {
     res.json(products)
 });
