@@ -1,10 +1,17 @@
 import './App.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Footer from './components/Footer.js';
 
 function App() {
+  
   return (
-    <div className="App">
-      <h1>We understand tailors better now.</h1>
-    </div>
+
+    <Router>
+      <Footer/>
+    </Router>
+    
+
+    
   );
 }
 
